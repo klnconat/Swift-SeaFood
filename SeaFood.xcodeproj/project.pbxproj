@@ -17,6 +17,7 @@
 		2754418B2CCF8C20008A06E5 /* SeaFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754418A2CCF8C20008A06E5 /* SeaFoodTests.swift */; };
 		275441952CCF8C20008A06E5 /* SeaFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275441942CCF8C20008A06E5 /* SeaFoodUITests.swift */; };
 		275441972CCF8C20008A06E5 /* SeaFoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275441962CCF8C20008A06E5 /* SeaFoodUITestsLaunchTests.swift */; };
+		275441A42CCF8C53008A06E5 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 275441A32CCF8C53008A06E5 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		275441902CCF8C20008A06E5 /* SeaFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		275441942CCF8C20008A06E5 /* SeaFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaFoodUITests.swift; sourceTree = "<group>"; };
 		275441962CCF8C20008A06E5 /* SeaFoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaFoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		275441A32CCF8C53008A06E5 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				2754417E2CCF8C20008A06E5 /* LaunchScreen.storyboard */,
 				275441812CCF8C20008A06E5 /* Info.plist */,
 				275441792CCF8C1E008A06E5 /* SeaFood.xcdatamodeld */,
+				275441A32CCF8C53008A06E5 /* Inceptionv3.mlmodel */,
 			);
 			path = SeaFood;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275441A42CCF8C53008A06E5 /* Inceptionv3.mlmodel in Sources */,
 				275441752CCF8C1E008A06E5 /* ViewController.swift in Sources */,
 				2754417B2CCF8C1E008A06E5 /* SeaFood.xcdatamodeld in Sources */,
 				275441712CCF8C1E008A06E5 /* AppDelegate.swift in Sources */,
@@ -446,6 +450,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 839PGN9VHU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeaFood/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -453,6 +458,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +479,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 839PGN9VHU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeaFood/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -480,6 +487,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
